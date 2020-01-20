@@ -9,7 +9,7 @@ public class Q1_deleteDuplicateNode_noSpace {
     static void deleteDup(LinkedListNode head) {
         LinkedListNode current = head;
         while (current != null) {
-            LinkedListNode runner = surrent;
+            LinkedListNode runner = current;
             while (runner.next != null) {
                 if (runner.next.data  == current.data) {
                     runner.next = runner.next.next;
