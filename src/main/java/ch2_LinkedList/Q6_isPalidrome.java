@@ -32,7 +32,7 @@ public class Q6_isPalidrome {
     }
 
     public static void main(String[] args) {
-        LinkedListNode lA1 = new LinkedListNode(69, null, null);
+        LinkedListNode lA1 = new LinkedListNode(9, null, null);
         LinkedListNode lA2 = new LinkedListNode(8, null, lA1);
         LinkedListNode lA3 = new LinkedListNode(7, null, lA2);
         LinkedListNode lA4 = new LinkedListNode(8, null, lA3);
