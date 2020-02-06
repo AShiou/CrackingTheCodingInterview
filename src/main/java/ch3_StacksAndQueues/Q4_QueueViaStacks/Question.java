@@ -1,8 +1,5 @@
 package ch3_StacksAndQueues.Q4_QueueViaStacks;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class Question {
     public static void main(String[] args) {
         MyQueue myQueue = new MyQueue();
